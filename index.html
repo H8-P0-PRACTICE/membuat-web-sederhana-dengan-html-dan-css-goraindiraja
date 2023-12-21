@@ -1,1 +1,209 @@
-<!-- write your code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script 
+        src="https://kit.fontawesome.com/f90068558c.js" 
+        crossorigin="anonymous">
+    </script>
+
+    <title>JPTravel</title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <h3 class="header__logo"><span>JP</span>Travel</h3>
+
+            <nav class="header__links">
+                <a href="#">Home</a>
+                <a href="#">Destinations</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contacts</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-content">
+
+            <!-- Jumbotron Section -->
+            <section class="jumbotron">
+                <div class="jumbotron__text">
+                    <h5>Discover</h5>
+                    <h1>The Enchanting Land <br> Of The Rising Sun</h1>
+                    <p>Japan, a country of incredible contrast, a mind-blowing mix <br> of the ultra modern and ultra traditional</p>
+                    <button class="btn jumbotron__btn">Book Now</button>
+                </div>
+            </section>
+
+            <!-- intro Section -->
+            <section class="intro">
+                <article class="intro__component">
+                    <div class="intro__card">
+                        <img src="./assets/kansai-img(1).jpg" alt="Gambar Kansai Prefecture">
+                    </div>
+
+                    <div class="intro__text">
+                        <h5>Kansai Prefecture</h5>
+                        <h1>Have you enjoyed your holiday</h1>
+                        <p>Kansai is Japan's spiritual and cultural capital. 
+                            Your journey will reveal the wide variety of 
+                            traditions, food and culture in these hidden sites, 
+                            which the people of the Kansai developed and preserved 
+                            over their long history.</p>
+
+                        <button class="btn intro__btn">Read More</button>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Popular Destination Section -->
+            <section class="destination">
+                <h2>Popular Destination</h2>
+                <article class="destination__component">
+                    <div class="destination__card">
+                        <img src="./assets/niseko(1).jpg" alt="Gambar Niseko">
+                        <h6>Hokkaido</h6>
+                        <h4>Niseko Ski Resort</h4>
+                    </div>
+
+                    <div class="destination__card">
+                        <img src="./assets/sakura-zutsumi(1).jpg" alt="Gambar Sakura">
+                        <h6>Saitama</h6>
+                        <h4>Sakura Zutsumi Park</h4>
+                    </div>
+
+                    <div class="destination__card">
+                        <img src="./assets/lake-biwa(1).jpg" alt="Gambar Lake Biwa">
+                        <h6>Saiga</h6>
+                        <h4>Lake Biwa Area</h4>
+                    </div>
+                </article>
+            </section>
+
+            <section class="package">
+                <div class="package__header">
+                    <h2>Best Trip Package</h2>
+                    <p>We offers unlimited vacation possibilities to explore and experience an unforgettable trip to Japan</p>
+                </div>
+
+                <article class="package__component">
+                    <div class="package__card">
+                        <img src="./assets/kyoto-img.jpg" alt="Gambar Kyoto" width="400px" height="250px">
+                        <div class="package__detail">
+                            <h4>Splendours of Japan</h4>
+                            <p>9 Day Tour from Tokyo to Kyoto</p>
+
+                            <div class="package__rating">
+                                <i class="fas fa-star fa-xs" style="color: #ffc700;"></i>
+                                <p><b>4.5</b></p>
+                            </div>
+
+                            <div class="package__price">
+                                <p>From <span>$4220</span></p>
+                                <button class="btn package__btn">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="package__card">
+                        <img src="./assets/osaka-img.jpg" alt="Gambar Osaka" width="400px" height="250px">
+                        <div class="package__detail">
+                            <h4>Classic Japan Tour</h4>
+                            <p>11 Day Tour from Tokyo to Osaka</p>
+
+                            <div class="package__rating">
+                                <i class="fas fa-star fa-xs" style="color: #ffc700;"></i>
+                                <p>4.2</p>
+                            </div>
+
+                            <div class="package__price">
+                                <p>From <span>$5440</span></p>
+                                <button class="btn package__btn">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="package__card">
+                        <img src="./assets/yakushima-island.jpg" alt="Gambar Yakushima" width="400px" height="250px">
+
+                        <div class="package__detail">
+                            <h4>Southern Japan Experience</h4>
+                            <p>12 Day Tour from Osaka to Yakushima Island</p>
+
+                            <div class="package__rating">
+                                <i class="fas fa-star fa-xs" style="color: #ffc700;"></i>
+                                <p><b>4.7</b></p>
+                            </div>
+
+                            <div class="package__price">
+                                <p>From <span>$4750</span></p>
+                                <button class="btn package__btn">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="view-btn">
+                    <button class="btn package__view-btn">View All</button>
+                </div>
+            </section>
+
+            <section class="subscription">
+                <div class="sub__left-col">
+                    <h2>Ready to explore ?</h2>
+                    <p>Explore your suitable and dream places. Here you can find the right destination</p>
+
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn sub__enter-btn">Get Started</button>
+
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__col">
+                <h3>Services</h3>
+                <a href="#">Email Marketing</a>
+                <a href="#">Campaigns</a>
+                <a href="#">Branding</a>
+                <a href="#">Offline</a>
+            </div>
+
+            <div class="footer__col">
+                <h3>About</h3>
+                <a href="#">Our Story</a>
+                <a href="#">Benefits</a>
+                <a href="#">Team</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <div class="footer__col">
+                <h3>Help</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="footer__col">
+                <h3>Social Media</h3>
+
+                <div class="footer__socmed">
+                    <a href=""><i class="fab fa-facebook fa-lg" style="color: #d9d9d9;"></i></a>
+                    <a href=""><i class="fab fa-instagram fa-lg" style="color: #d9d9d9;"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-lg" style="color: #d9d9d9;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="attribution">
+            <p>Copyright &copy; 2023 by Gora Indiraja Shafa</p>
+        </div>
+    </footer>
+</body>
+</html>
